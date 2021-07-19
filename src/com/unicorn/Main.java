@@ -14,17 +14,11 @@ import java.util.*;
  * @author alexander
  */
 public class Main {
-    //method to clear the terminal of whatever command executed before the next is executed.
-
-    /*
-     * this part consists of methods to display information about the plane figures.
-     **/
-
     //method to display instructions needed in order to find the area a circle.
     public static void displayInstructionForCircle() {
         System.out.println("==========================================================\n");
         System.out.println("The area of a circle is calculated by the formula pi * r + r.\nr-radius");
-        //
+        
         System.out.println("Enter the radius of the circle: ");
         Scanner input = new Scanner(System.in);
         double rad = input.nextDouble();
